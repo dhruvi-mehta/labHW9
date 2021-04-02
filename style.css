@@ -1,5 +1,5 @@
 body{
-  background-color: #98ff98;
+  background-color: #ddf3e5;
   background-position: center;
   background-size: 50%;
 }
@@ -32,7 +32,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size: 600%;
-  color: #32CD32;
+  color: #AF38EB;
   line-height: 70%;
 }
 
@@ -44,5 +44,5 @@ p{
   font-weight: 200;
   font-style: normal;
   font-size: 200%;
-  color: black;
+  color: #4073FF;
 }
