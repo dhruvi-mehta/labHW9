@@ -1,4 +1,3 @@
-console.log("Is this working?")
 
 // load the airtable library, call it "Airtable"
 var Airtable = require("airtable");
@@ -64,7 +63,7 @@ function showPeople() {
 
 
     const personName = document.createElement("h1");
-    personName.innerText = person.fields.names;
+    personName.innerText = person.fields.name;
     peopleContainer.appendChild(personName);
 
     const personBio = document.createElement("p");
