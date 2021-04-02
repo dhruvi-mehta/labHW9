@@ -58,17 +58,18 @@ function showPeople() {
     console.log(person.fields);
 
 
-    const personName = document.createElement("h1");
-    personName.innerText = person.fields.names;
-    peopleContainer.appendChild(personName);
-
     const personImage = document.createElement("img");
     personImage.src = person.fields.images[0].url;
     peopleContainer.appendChild(personImage);
 
-  const personBio = document.createElement("p");
-  personBio.innerText = person.fields.bio;
-  peopleContainer.appendChild(personBio);
+
+    const personName = document.createElement("h1");
+    personName.innerText = person.fields.names;
+    peopleContainer.appendChild(personName);
+
+    const personBio = document.createElement("p");
+    personBio.innerText = person.fields.bio;
+    peopleContainer.appendChild(personBio);
 
   
   });
